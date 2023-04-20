@@ -136,10 +136,10 @@ background-color: rgba(255, 0, 0, 0);
     height: 35vw;
   }
   .sponsorimages{
-width: 25vw;
+width: 35vw;
   }
   .eventpics{
-    width: 45vw;
+    width: 65vw;
   }
 }
 /*Note that the media query rule must come after any other CSS rules in your stylesheet, or it may not work correctly.*/
