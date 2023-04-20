@@ -106,7 +106,7 @@ background-color: rgba(255, 0, 0, 0);
   font-size:20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 530px) {
   p {
     font-size: 3vw;
   }
@@ -134,6 +134,12 @@ background-color: rgba(255, 0, 0, 0);
   .logo {
     width: 35vw;
     height: 35vw;
+  }
+  .sponsorimages{
+width: 25vw;
+  }
+  .eventpics{
+    width: 45vw;
   }
 }
 /*Note that the media query rule must come after any other CSS rules in your stylesheet, or it may not work correctly.*/
