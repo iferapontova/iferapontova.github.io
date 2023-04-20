@@ -1,21 +1,98 @@
 /* CSS code in style.css file */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+    margin: 4% 10%;
+    text-align: center;
   }
   
   h1 {
-    font-size: 36px;
-    color: #333333;
+    font-size:30px;
+    color: rgb(126,132,163);
+    text-align: center;
+  }
+
+  h2{
+    color: rgb(126,132,163);
   }
   
   p {
-    line-height: 1.5;
-    color: #666666;
+    line-height: 1.2;
+    color: #000000;
+  }
+
+  .mlsmail{
+    text-align:center;
+    color: rgb(126,132,163);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: auto;
   }
   
   img {
     max-width: 100%;
     height: auto;
   }
+  
+  nav {
+    justify-content: center;
+    display: flex;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin:0;
+    padding:0;
+  }
+  
+a{
+    display: block;
+    color: rgb(126,132,163);
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    width: 100px;
+    margin: 5px 5px;
+    font-size: 15px;
+  }
+
+  #lnkcurr{ 
+    color: rgb(97, 75, 128);
+  }
+  
+  a:hover {
+    background-color: rgba(200, 156, 218, 0.218);
+  }
+
+.form{
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding:-5 0;
+  margin:0;
+  font-weight: bold;
+  display: inline-block;
+  width:4.3em;
+}
+
+.form:hover{
+text-decoration: underline;
+background-color: rgba(255, 0, 0, 0);
+}
+
+.sponsors-img{
+  width: 80vmin;
+  margin: 25px auto 0 auto; /*top right bottom left */
+  display: block;
+}  
+
+.logo {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.signup{
+  display: inline-block;
+}
