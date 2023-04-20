@@ -101,3 +101,20 @@ background-color: rgba(255, 0, 0, 0);
   font-family: 'Arial', sans-serif;
   font-size: 15px;
 }
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 25px;
+  }
+  .form{
+    font-size: 25px;
+  }
+  a{
+    padding: 5px 5px;
+    width: 7em;
+    margin: 5px 5px;
+    font-size: 25px;
+  }
+}
+/*Note that the media query rule must come after any other CSS rules in your stylesheet, or it may not work correctly.*/
+
