@@ -24,7 +24,7 @@ body {
     color: #000000;
   }
 
-  .mlsmail{
+  #mlsmail{
     text-align:center;
     color: rgb(126,132,163);
     font-size: 20px;
@@ -72,7 +72,7 @@ a{
   font-family: 'Arial', sans-serif;
   font-size: 15px;
   color: rgb(0, 0, 0);
-  padding:-5 0;
+  padding:0;
   margin:0;
   font-weight: bold;
   display: inline-block;
@@ -90,7 +90,7 @@ background-color: rgba(255, 0, 0, 0);
   display: block;
 }  
 
-.logo {
+.logo{
   width: 200px;
   height: 200px;
   text-align: center;
@@ -113,7 +113,7 @@ background-color: rgba(255, 0, 0, 0);
   h1 {
     font-size:5vw;
   }
-  .mlsmail{
+  #mlsmail{
     font-size: 4vw;
   }
   .form{
@@ -131,11 +131,11 @@ background-color: rgba(255, 0, 0, 0);
   .annual{
     font-size:4vw;
   }
-  .logo {
-    width: 45vw;
-    height: 45vw;
+  .logo{
+    width: 35vw;
+    height: 35vw;
   }
-  .sponsorimages{
+  .sponsors-img{
 width: 45vw;
   }
   .eventpics{
