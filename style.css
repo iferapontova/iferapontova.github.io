@@ -120,8 +120,8 @@ background-color: rgba(255, 0, 0, 0);
     font-size: 3vw;
   }
   nav {
+    flex-wrap: wrap;
     justify-content: center;
-    display: flex;
   }
   
   ul {
