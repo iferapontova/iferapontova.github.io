@@ -9,12 +9,12 @@ body {
   
   h1 {
     font-size:30px;
-    color: rgb(126,132,163);
+    color: rgb(0, 0, 0);
     text-align: center;
   }
 
   h2{
-    color: rgb(126,132,163);
+    color: rgb(0, 0, 0);
   }
   
   p {
@@ -26,7 +26,7 @@ body {
 
   #mlsmail{
     text-align:center;
-    color: rgb(126,132,163);
+    color: rgb(85, 14, 183);
     font-size: 20px;
     font-weight: 600;
     margin-top: auto;
@@ -51,7 +51,7 @@ body {
   
 a{
     display: block;
-    color: rgb(126,132,163);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 5px 5px;
     text-decoration: none;
@@ -61,28 +61,12 @@ a{
   }
 
   #lnkcurr{ 
-    color: rgb(97, 75, 128);
+    color: rgb(85, 14, 183);
   }
   
   a:hover {
     background-color: rgba(200, 156, 218, 0.218);
   }
-
-.form{
-  font-family: 'Arial', sans-serif;
-  font-size: 15px;
-  color: rgb(0, 0, 0);
-  padding:0;
-  margin:0;
-  font-weight: bold;
-  display: inline-block;
-  width:4.3em;
-}
-
-.form:hover{
-text-decoration: underline;
-background-color: rgba(255, 0, 0, 0);
-}
 
 .sponsors-img{
   width: 80vmin;
@@ -91,8 +75,6 @@ background-color: rgba(255, 0, 0, 0);
 }  
 
 .logo{
-  width: 200px;
-  height: 200px;
   text-align: center;
 }
 
@@ -122,6 +104,9 @@ background-color: rgba(255, 0, 0, 0);
   nav {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .logo {
+    width: 20vw;
   }
   
   ul {
