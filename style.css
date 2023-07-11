@@ -70,6 +70,7 @@ a{
 
 .sponsors-img{
   width: 80vmin;
+  max-height: 50px;
   margin: 25px auto 0 auto; /*top right bottom left */
   display: block;
 }  
@@ -106,7 +107,7 @@ a{
     justify-content: center;
   }
   .logo {
-    width: 20vw;
+    width: 40vw;
   }
   
   ul {
