@@ -68,13 +68,6 @@ a{
     background-color: rgba(200, 156, 218, 0.218);
   }
 
-.sponsorimages{
-  width: 80vmin;
-  max-height: 20px;
-  margin: 25px auto 0 auto; /*top right bottom left */
-  display: block;
-}  
-
 .logo{
   text-align: center;
 }
