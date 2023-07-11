@@ -148,10 +148,6 @@ background-color: rgba(255, 0, 0, 0);
     overflow: hidden;
   }
 
-  .logo img {
-    margin-top: -10px;
-    margin-bottom: -20px;
-}
   .sponsors-img{
 width: 45vw;
 height: 30px;
